@@ -44,7 +44,34 @@
 # print(mylist)
 
 ################################################################
-fib = [1,1,"a","a",5,"a",13]
-print(fib.count("a")) #counts the number of repetition of given element
+# fib = [1,1,"a","a",5,"a",13]
 
-print(fib.index(13))
+# print(fib.count("a")) #counts the number of repetition of given element
+
+# print(fib.index(13))
+################################################################
+#REVERSE()
+
+# letters =["a", "b", "c"]
+# letters.reverse()
+# print(letters)
+
+################################################################
+#   SORTED()
+
+# numbers = [2, 10, 3, 26, 5]
+# # print(sorted(numbers)) #This does not modifies the existing list
+# # print(numbers)
+
+# numbers.sort() #This changes the existing list
+# print(numbers)
+################################################################
+#   REVERSE ORDER SORTING
+
+# numbers = [2, 10, 3, 26, 5]
+# print(sorted(numbers, reverse=True))
+################################################################
+#   MIN & MAX FUNCTION 
+
+# numbers = [2, 10, 3, 26, 5]
+# print("min:",min(numbers), " max:",max(numbers))
